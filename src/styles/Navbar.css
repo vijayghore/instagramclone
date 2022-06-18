@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+.navbar{
+    width: 100vw;
+    padding: 0px 15%;
+    margin: 0px 0px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid gray;
+}
+
+.navbar .logo{
+    font-family: 'Freehand', cursive;
+    font-size: 2rem;
+}
+
+input[type=text]{
+    width: 20vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+    border: 0px;
+    border-radius: 8px;
+
+    background-color: rgb(216, 211, 211);
+
+}
+
+input[type=text]:focus {
+    /* Pending */
+    border: 0px solid white;
+}
+
+.nav-icon{
+    font-size: x-large;
+    padding: 0px 10px;
+}
