@@ -1,15 +1,16 @@
 import React from 'react'
 import '../styles/Navbar.css';
+import logo from '../images/instagram.png'
 
 const Navbar = () => {
   return (
     <nav className='navbar'>
         <div className="logo">
-            Instagram
+            <img src={logo} className="brand-logo" alt="Instagram" />
         </div>
 
         <div className="searchbar">
-            <input type="text" placeholder="&#128269; Search" />
+            <input type="text"  className="mysearch" placeholder='&#xf002; Search' />
         </div>
 
         <div className="nav-links">

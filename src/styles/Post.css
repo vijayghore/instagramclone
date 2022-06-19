@@ -1,0 +1,124 @@
+.post{
+    display: flex;
+    flex-direction: column;
+
+    width: 33vw;
+    border: 2px solid #F1EDED;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userpicandname{
+    display: flex;
+    flex-direction: row;
+}
+
+.username{
+    align-self: center;
+    padding-left: 5px;;
+}
+
+.action{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 0px 10px;
+}
+
+.action .post-action{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.dp{
+    border: 2px solid;
+    
+    
+    /* border-image: linear-gradient(145deg, rgba(138,58,185,1) 0%, rgba(233,89,80,1) 17%, rgba(188,42,141,1) 35%, rgba(252,204,99,1) 50%, rgba(251,173,80,1) 65%, rgba(205,72,107,1) 83%, rgba(76,104,215,1) 100%); */
+
+    border-radius: 50%;
+    width: 32px
+
+}
+
+.more{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.other-info{
+    margin: 0px 10px;
+    font-size: small;
+}
+
+.action-btn{
+    margin: 0px 8px;
+    font-size: x-large;
+}
+
+.action-btn:hover{
+    color: rgb(158, 155, 155)
+}
+
+.like-counts{
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+
+.user-caption{
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.all-comments{
+    color: gray;
+    margin: 10px 0px;
+}
+
+.upload-time{
+    text-transform:uppercase;
+    font-size: x-small;
+    color: gray;
+    margin: 10px 0px;
+}
+
+.comment-self{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid rgb(212, 212, 212);
+
+    padding: 10px 0px;
+}
+
+.add-comment{
+    width: 80%;
+    padding: 5px;
+    border: none;
+}
+
+.add-comment:focus{
+    border: none;
+}
+
+.post-btn{
+    font-weight: 600;
+    color: #d7eaf7
+}
